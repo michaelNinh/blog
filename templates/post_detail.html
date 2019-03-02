@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="post-entry">
+        <!--this is the lowercase reference of the passed in Post object-->
+        <h2> {{ post.title }}</h2>
+        <p>{{ post.body }}</p>
+
+    </div>
+
+{% endblock content %}
